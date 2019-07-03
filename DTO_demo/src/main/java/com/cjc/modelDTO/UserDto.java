@@ -1,0 +1,20 @@
+package com.cjc.modelDTO;
+
+public class UserDto {
+	
+	private String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getMobileno() {
+		return mobileno;
+	}
+	public void setMobileno(String mobileno) {
+		this.mobileno = mobileno;
+	}
+	private String mobileno;
+	
+}
